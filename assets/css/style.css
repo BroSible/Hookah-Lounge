@@ -42,13 +42,17 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-right: 4vh;
+    margin-right: 9vh;
 }
 
 .logo-img{
     display: flex;
     justify-content: center;
     margin-bottom: 5vh;
+}
+
+.logo-img img{
+    margin-top: 2vh;
 }
 
 .overlay-information{
@@ -194,15 +198,17 @@ nav{
 }
 
 .block h1{
-    font-size: 5vh;
+    font-size: 3vh;
     font-family: "Oswald", sans-serif;
     font-weight: 400;
+    width: 400px;
 }
 
 .block p{
-    font-size: 3vh;
+    font-size: 2.4vh;
     font-family: "Oswald", sans-serif;
     font-weight: 100;
+    width: 400px;
 }
 
 .information-bar{
@@ -246,9 +252,13 @@ nav{
     justify-content: space-evenly;
 }
 
+.block h1{
+    margin-bottom: -15px;
+}
+
 footer {
     width: 100%;
-    height: 30vh;
+    height: 33vh;
     background-color: black;
 }
 
@@ -259,5 +269,17 @@ footer {
     align-items: center;
     align-self: center;
     color: white;
+}
 
+.footer-header img{
+    margin-top:20px;
+}
+
+.footer-header h1{
+    margin-bottom: -20px;
+}
+
+.footer-header p{
+    margin-bottom: -15px;
+    color: #757a7a;
 }
