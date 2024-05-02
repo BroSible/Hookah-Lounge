@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
-h1, h2, h3, h4, h5, h6, a, p{
+h1, h2, h3, h4, h5, h6, a, p, input, textarea{
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     text-decoration: none;
 }
+
 
 a{
     font-size: 3vh;
@@ -282,4 +283,163 @@ footer {
 .footer-header p{
     margin-bottom: -15px;
     color: #757a7a;
+}
+
+/*Contact page*/
+.contact-header h1{
+    color: white;
+    font-size: 4vh;
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+}
+
+.contact-content{
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 3;
+}
+
+.contact-forms{
+    width: 1350px;
+    height: 800px;
+    background-color: rgba(0,0,0,.2);
+    position: relative;
+    left: 270px;
+    top: 50px;
+    border-radius: 10px;
+}
+
+.contacts{
+    width: 500px;
+    height: 800px;
+    background-image: url("../images/png/1.png");
+    position: absolute;
+    left: 1130px;
+    top: 50px;
+    border-radius: 0 10px 10px 0;
+}
+
+.contact-form-page{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-names input{
+    width: 300px;
+    height: 50px;
+    border: none;
+    font-weight: 300;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+.contact-names input::placeholder{
+    font-size: 2vh;
+    text-align: start;
+    position: relative;
+    left: 10px;
+}
+
+.contact-task input::placeholder{
+    font-size: 2vh;
+    text-align: start;
+    position: relative;
+    left: 10px;
+}
+
+.contact-task input{
+    position: relative;
+    top: 10px;
+    width: 617px;
+    height: 50px;
+    font-weight: 300;
+    border: none;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+.contact-forms-input{
+    display: flex;
+    font-weight: 300;
+    flex-direction: column;
+    padding-left: 80px;
+}
+
+.textarea-task textarea{
+    position: relative;
+    font-weight: 300;
+    top: 30px;
+    font-size: 2vh;
+    width: 617px;
+    height: 450px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    resize: none;
+    overflow: auto;
+    border: none;
+}
+
+textarea::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+.textarea-task textarea::placeholder{
+    font-size: 2vh;
+    position: relative;
+    left: 10px;
+}
+
+.contact-form-button{
+    width: 400px;
+    height: 60px;
+    text-decoration: none;
+    border: none;
+    align-items: center;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.contact-form-button:hover{
+    width: 400px;
+    height: 60px;
+    text-decoration: none;
+    border: none;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    color: #ff0000;
+    font-family: "Oswald", sans-serif;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+
+/*Menu content*/
+
+
+.menu-content{
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 3;
+}
+
+.menu-content img{
+    position: relative;
+    left: 370px;
+    top: 50px;
+    width: 60vh;
+
 }
